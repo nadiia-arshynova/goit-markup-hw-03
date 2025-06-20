@@ -75,7 +75,7 @@ display: block;
     
 }
 
-.contacts-container {
+.contacts-container ul {
     display: flex;
     gap: 40px;
     
@@ -160,7 +160,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.advantages-container {
+.advantages-container ul {
     display: flex;
     flex-basis: calc((100% - 72px) / 4);
     padding-left: 156px;
@@ -172,7 +172,7 @@ color: #434455;
     background-color: #f4f4fd;
 }
 
-.team-container {
+.team-container ul {
     display: flex;
     gap: 24px;
     padding-left: 156px;
@@ -223,7 +223,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.portfolio-container {
+.portfolio-container ul {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
