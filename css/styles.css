@@ -13,6 +13,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .header .container {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
@@ -170,6 +172,7 @@ color: #434455;
 
 .team {
     background-color: #f4f4fd;
+    
 }
 
 .team-container ul {
@@ -182,6 +185,9 @@ color: #434455;
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .team-title {
