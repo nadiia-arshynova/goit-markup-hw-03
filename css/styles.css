@@ -293,11 +293,12 @@ color: #434455;
 
 .footer-page {
     background: #2e2f42;
-    margin-bottom: 16px;
+    
 }
 
 .footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
