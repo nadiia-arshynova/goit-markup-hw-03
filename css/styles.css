@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -60,6 +60,7 @@ color: #4d5ae5;
 .navigation-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .navigation-link {
@@ -86,7 +87,6 @@ color: #2e2f42;
     display: flex;
     gap: 40px;
     justify-content: flex-end;
-    
 }
 
 .contacts-link {
@@ -103,11 +103,10 @@ color: #434455;
 
 .hero-baner {
     background-color: #2e2f42;
-}
-
-.hero-baner .container {
     padding: 188px 0;
 }
+
+
 
 .hero-baner-title {
     font-weight: 700;
@@ -150,6 +149,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .visually-hidden {
     position: absolute;
@@ -172,7 +172,11 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.advantages-container ul {
+.advantages {
+padding: 120px 0;
+}
+
+.advantages-list {
     display: flex;
     flex-basis: calc((100% - 72px) / 4);
     padding-left: 156px;
@@ -182,22 +186,23 @@ color: #434455;
 
 .team {
     background-color: #f4f4fd;
-    
 }
 
-.team-container ul {
+.team .container {
+    padding: 120px 0;
+}
+
+.team-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-bottom: 120px;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
+    padding-left: 156px;   
 }
 
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
 }
 
 .team-title {
@@ -212,6 +217,10 @@ padding-top: 120px;
 margin-bottom: 72px;
 }
 
+.name-container {
+    padding: 32px 0;
+}
+
 .team-name {
 font-weight: 500;
 font-size: 20px;
@@ -219,10 +228,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-align: center;
+margin-bottom: 8px;
 }
 
 .team-text {
-        font-weight: 400;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
