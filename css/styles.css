@@ -226,8 +226,8 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
-padding-top: 120px;
-margin-bottom: 72px;
+
+margin: 0 0 72px 0;
 }
 
 .name-container {
@@ -259,6 +259,7 @@ text-align: center;
 
 .portfolio .container {
     max-width: 1158px;
+    justify-content: center;
 }
 
 .portfolio-title {
@@ -276,6 +277,7 @@ margin-bottom: 72px;
     column-gap: 24px;
     row-gap: 48px; 
     flex-wrap: wrap;
+    padding: 0;
     
 }
 
